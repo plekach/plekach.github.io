@@ -7,16 +7,19 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import MyWork from './components/MyWork/MyWork';
 import Contact from './components/Contact/Contact';
+import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
       <BrowserRouter>
           <div style={{fontFamily: "Montserrat"}}>
             <Header />
+            <Fade >
             <Home  />
             <About />
             <MyWork />
             <Contact />
+            </Fade>
         </div>
       </BrowserRouter>
   );

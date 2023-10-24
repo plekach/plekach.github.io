@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { LIGHT_GREEN, MEDIUM_GREEN } from '../../utils/constants';
+import { LIGHT_GREEN, MEDIUM_GREEN, WHITE } from '../../utils/constants';
 
 export const Center = styled.div`
     display:flex;
@@ -10,9 +10,9 @@ export const Center = styled.div`
 `;
 
 export const Screen = styled.img`
-    height: 150pt;
-    border: 1pt solid ${LIGHT_GREEN};
-    border-radius: 15pt;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50pt 50pt 0pt 0pt;
 `;
 
 export const SContainer = styled.div`
@@ -20,26 +20,33 @@ export const SContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20pt;
-    margin-left: 10pt;
 `;
 
 export const Description = styled.div`
     flex: 2;
-    margin: 10pt 20pt 10pt 20pt;
+    margin: 20pt 20pt 20pt 20pt;
 `;
 
 export const Pair = styled.div`
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    background: ${WHITE};
+    box-shadow: ${LIGHT_GREEN} 0pt 4pt 3pt;
+    margin-bottom: 10pt;
+    max-width: 450pt;
+    border-radius: 50pt;
+    margin-left: 10pt;
+    margin-right: 10pt;
 `;
 
 export const SubProject = styled.div`
     color: ${MEDIUM_GREEN};
     font-weight: 600;
-    text-decoration: underline;
     margin-bottom: 10pt;
+    text-align: center;
 `;

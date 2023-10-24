@@ -20,7 +20,8 @@ export const Title = styled.div`
 `;
 
 export const Picture = styled.img`
-    height: 50%;
+    max-width: min(100%, 300pt);
+    height: auto;
 `;
 
 export const SubTitle = styled.div`
