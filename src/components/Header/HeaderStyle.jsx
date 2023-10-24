@@ -19,7 +19,7 @@ export const HContainer = styled.div`
 export const NameBlock = styled.button`
     font-family: Montserrat;
     float: left;
-    font-size: 25pt;
+    font-size: min(20pt, 6vw);
     background: ${LIGHT_GREEN};
     padding: 10pt 10pt 10pt 10pt;
     margin-left: 20pt;

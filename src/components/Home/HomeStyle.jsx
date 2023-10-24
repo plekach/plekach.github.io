@@ -5,17 +5,17 @@ import { Button } from '@mui/material';
 
 export const FlexAlign = styled.div`
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 70pt;
+    padding-top: 120pt;
+    margin-bottom: 100pt;
 `;
 
 export const Title = styled.div`
     text-align: center;
-    font-size: 40pt;
+    font-size: min(40pt, 13vw);
     margin-top: 10pt;
 `;
 

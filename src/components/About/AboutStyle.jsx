@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { LIGHT_GREEN, MEDIUM_GREEN } from '../../utils/constants';
 
 export const AlignColumn = styled.div`
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +12,7 @@ export const AlignColumn = styled.div`
 export const Title = styled.div`
     margin-top: 40pt;
     font-weight: bold;
-    font-size: 35pt;
+    font-size: min(35pt, 10vw);
     color: ${MEDIUM_GREEN};
 `;
 
