@@ -4,8 +4,7 @@ import { MEDIUM_GREEN } from '../../utils/constants';
 
 export default function Home() {
     return(
-        <div id="Home">
-            <FlexAlign>
+            <FlexAlign id='Home'>
                 <Title>
                     Software<br/>Engineer
                     <SubTitle>
@@ -15,7 +14,5 @@ export default function Home() {
                 </Title>
                 <Picture src={require("../../utils/ProfileArt.png")}/>
             </FlexAlign>
-        </div>
-        
     )
 }

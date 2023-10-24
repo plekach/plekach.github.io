@@ -4,21 +4,23 @@ import { BLACK, DARK_GREEN, LIGHT_GREEN, MEDIUM_GREEN, WHITE } from '../../utils
 import { Button } from '@mui/material';
 
 export const FlexAlign = styled.div`
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 40pt;
+    padding-top: 70pt;
 `;
 
 export const Title = styled.div`
     text-align: center;
     font-size: 40pt;
+    margin-top: 10pt;
 `;
 
 export const Picture = styled.img`
-    height: 350pt;
+    height: 50%;
 `;
 
 export const SubTitle = styled.div`

@@ -11,6 +11,7 @@ export const AlignColumn = styled.div`
 `;
 
 export const Title = styled.div`
+    margin-top: 40pt;
     font-weight: bold;
     font-size: 35pt;
     color: ${MEDIUM_GREEN};
@@ -24,5 +25,6 @@ export const Divider = styled.hr`
 export const TextParagraph = styled.div`
     margin-left: 40pt;
     margin-right: 40pt;
+    margin-bottom: 40pt;
     font-size: 15pt;
 `;
