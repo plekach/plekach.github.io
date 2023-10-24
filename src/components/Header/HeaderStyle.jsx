@@ -25,6 +25,7 @@ export const NameBlock = styled.button`
     margin-left: 20pt;
     border-radius: 25pt;
     border: 1pt solid ${LIGHT_GREEN};
+    color: ${BLACK};
 `;
 
 export function MenuDropdown() {
