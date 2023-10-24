@@ -25,7 +25,7 @@ export const Picture = styled.img`
 `;
 
 export const SubTitle = styled.div`
-    font-size: 25pt;
+    font-size: min(20pt, 7vw);
 `;
 
 export const ProfilePicture = styled.div`
