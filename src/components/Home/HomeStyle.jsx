@@ -5,6 +5,7 @@ import { Button } from '@mui/material';
 
 export const FlexAlign = styled.div`
     width: 100%;
+    max-width: 1000pt;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

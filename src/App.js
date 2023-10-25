@@ -12,7 +12,7 @@ import Fade from 'react-reveal/Fade';
 function App() {
   return (
       <BrowserRouter>
-          <div style={{fontFamily: "Montserrat"}}>
+          <div style={{fontFamily: "Montserrat", display: "flex", flexDirection: "column", alignItems: "center"}}>
             <Header />
             <Fade >
             <Home  />
