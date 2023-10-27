@@ -22,8 +22,8 @@ export const Divider = styled.hr`
 `;
 
 export const TextParagraph = styled.div`
-    margin-left: 40pt;
-    margin-right: 40pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
     margin-bottom: 40pt;
-    font-size: 15pt;
+    font-size: min(15pt, 6vw);
 `;
