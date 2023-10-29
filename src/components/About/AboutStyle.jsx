@@ -25,5 +25,5 @@ export const TextParagraph = styled.div`
     margin-left: 20pt;
     margin-right: 20pt;
     margin-bottom: 40pt;
-    font-size: min(15pt, 6vw);
+    font-size: min(15pt, 5vw);
 `;

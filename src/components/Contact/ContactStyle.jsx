@@ -5,9 +5,10 @@ import { Button, Tooltip } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export const SubHeader = styled.div`
+    text-align: center;
     margin-top: 20pt;
     margin-bottom: 10pt;
-    font-size: 15pt;
+    font-size: min(15pt, 5vw);
     color: ${BLACK};
 `;
 
