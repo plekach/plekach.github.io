@@ -16,7 +16,7 @@ export default function About () {
 
                 I have mainly worked in the front-end realm but have experience with back-end projects as well.<br/><br/>
 
-                I am actively looking for work in Canada and am open to chat about potential employment opportunities!<br/>
+                I am actively looking for work and am open to chat about potential employment opportunities!<br/>
             </TextParagraph>
         </AlignColumn>
     )
