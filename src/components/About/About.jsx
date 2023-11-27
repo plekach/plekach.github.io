@@ -15,8 +15,6 @@ export default function About () {
                 I have experience working in start-up and larger environments as well as working freelance.<br/><br/>
 
                 I have mainly worked in the front-end realm but have experience with back-end projects as well.<br/><br/>
-
-                I am actively looking for work and am open to chat about potential employment opportunities!<br/>
             </TextParagraph>
         </AlignColumn>
     )
