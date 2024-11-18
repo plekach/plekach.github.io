@@ -16,7 +16,7 @@ export const HContainer = styled.div`
     z-index: 999;
 `;
 
-export const NameBlock = styled.button`
+export const NameBlock = styled.a`
     font-family: Montserrat;
     float: left;
     font-size: min(20pt, 6vw);
@@ -26,6 +26,7 @@ export const NameBlock = styled.button`
     border-radius: 25pt;
     border: 1pt solid ${LIGHT_GREEN};
     color: ${BLACK};
+    text-decoration: none;
 `;
 
 export function MenuDropdown() {

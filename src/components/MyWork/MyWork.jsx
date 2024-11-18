@@ -16,8 +16,8 @@ export default function MyWork() {
                 <Description >
                     <SubProject>Web Development (Contract)</SubProject>
                     <Divider />
-                    As a freelance web developer, worked closely with clients on developing a web application for the medical statistic model used by neurosurgeons. <br/> <br/>
-                    Front-End designed with Figma and implemented with React.JS with JavaScript.<br/><br/>
+                    As a freelance web developer, worked closely with clients on developing a web application for a statistical model used in the medical field. <br/> <br/>
+                    Front-End designed with Figma and implemented with React.JS and JavaScript.<br/><br/>
                 </Description>
             </Pair>
             <br/>
@@ -28,9 +28,9 @@ export default function MyWork() {
                     <Divider />
                     A social events application intended for U of A students to discover social events and clubs hosted by university student groups.<br/> <br/>
 
-                    Developed in team setting, I lead the front-end design and development of the platform.<br/><br/>
+                    Developed in a team setting, I lead the front-end design and development of the platform.<br/><br/>
 
-                    Front-End designed with Figma and implemented with React.JS with JavaScript.<br/><br/>
+                    Front-End designed with Figma and implemented with React.JS and JavaScript.<br/><br/>
                     Back-end utilizes Node.JS and Express.JS and interfaces with DynamoDB, SendGrid, and S3.
                 </Description>
             </Pair>

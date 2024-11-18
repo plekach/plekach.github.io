@@ -23,10 +23,12 @@ export const Title = styled.div`
 export const Picture = styled.img`
     max-width: min(100%, 300pt);
     height: auto;
+    margin-top: 30px;
 `;
 
 export const SubTitle = styled.div`
     font-size: min(20pt, 7vw);
+    margin-top: 10px
 `;
 
 export const ProfilePicture = styled.div`

@@ -4,7 +4,7 @@ import { HContainer, MenuDropdown, NameBlock } from './HeaderStyle';
 export default function Header() {
     return(
         <HContainer>
-          <NameBlock onClick={() => {document.getElementById("Home").scrollIntoView({behavior: "smooth"})}}>Paige Lekach</NameBlock>
+          <NameBlock href="https://www.linkedin.com/in/paige-lekach/" >Paige Lekach</NameBlock>
           <MenuDropdown />
         </HContainer>
 

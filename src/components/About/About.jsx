@@ -10,7 +10,7 @@ export default function About () {
             <br/>
             <TextParagraph>
                 Hello, my name is Paige Lekach and I am a front-end engineer based in Calgary, AB.<br/><br/>
-                I am a recent graduate of the University of Alberta from the Computer Software Engineering Faculty.<br/><br/>
+                I am a graduate of the University of Alberta, where I majored in Computer Software Engineering.<br/><br/>
 
                 I have experience working in start-up and larger environments as well as working freelance.<br/><br/>
 
