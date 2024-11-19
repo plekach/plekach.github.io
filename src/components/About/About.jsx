@@ -9,12 +9,12 @@ export default function About () {
             <Divider />
             <br/>
             <TextParagraph>
-                Hello, my name is Paige Lekach and I am a front-end engineer based in Calgary, AB.<br/><br/>
+                Hello, my name is Paige Lekach and I am a software engineer based in Calgary, AB.<br/><br/>
                 I am a graduate of the University of Alberta, where I majored in Computer Software Engineering.<br/><br/>
 
-                I have experience working in start-up and larger environments as well as working freelance.<br/><br/>
+                I have experience working in start-up and larger corporate environments as well as working freelance.<br/><br/>
 
-                I have mainly worked in the front-end realm but have experience with back-end projects as well.<br/><br/>
+                I have mainly worked in a full-stack engineering capacity but I am interested in transitioning <br/>into the front-end engineering space.<br/><br/>
             </TextParagraph>
         </AlignColumn>
     )
